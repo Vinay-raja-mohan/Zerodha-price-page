@@ -1,0 +1,119 @@
+.navbar{
+    display: flex;
+    height: 68px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    box-shadow: 0px 1px 2px #eee;
+}
+
+.zero{
+    height: 17px;
+    margin-left: 400px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 485px;
+}
+
+
+.flex a{
+    text-decoration: none;
+    margin-right: 45px;
+    font-family: "Inter", sans-serif;
+    color: #666666;
+    font-size: 15px;
+}
+
+.flex a:hover{
+    color: #387ed1;
+    transition: 0.3s;
+}
+
+#pri{
+    color: #387ed1;
+    font-weight: 500;
+} 
+
+
+#menubar{
+    height: 22px;
+    cursor: pointer;
+}
+
+
+.middle{
+    position: absolute;
+    top: 100px;
+    padding: 70px 0px 100px 0px;
+    font-size: 44px;
+    width: 100%;
+}
+
+.middle div{
+    margin-left: 44.5%;
+    font-family: "Inter", sans-serif;
+    color: #424242;
+    font-weight: 500;
+    font-size: 2.75rem;
+
+}
+
+#tax{
+    margin-left: 42.3%;
+    font-size: 1.25rem;
+    color: #9B9B9B; 
+    line-height: 30px;
+    margin-top: 10px;   
+}
+
+
+.description{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 356px;
+    padding-top: 100px;
+    justify-content: center;
+    left: -15px;
+    gap: 40px;
+
+
+}
+
+.rs{
+    height: 184.781px;
+    width: 250px;
+    position: relative;
+    left: 35px;
+}
+
+.box{
+    width: 337.328px;
+    height: 402.953px;
+
+}
+
+
+.heading{
+    text-align: center;
+    font-family:"Inter", sans-serif;
+    font-size: 1.75rem;
+    margin-top: 27px;
+    color: #424242;
+    font-weight: 500;
+}
+
+.sub{
+    margin-top: 36px;
+    font-size: 1.01rem;
+    color: #666;
+    font-family: "Inter", sans-serif;
+    line-height: 1.8;
+    text-align: center;
+}
